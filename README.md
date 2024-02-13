@@ -1,7 +1,7 @@
 # Who-is-targeted
 This is the code repository for the poster submitted at WebSci24.
 
-In our research, we are exploring the application of llama-2-0B-chat for the purpose of identifying social groups. We utilize the following prompt based on chain of thought techniques to facilitate this investigation.
+In our research, we are exploring the application of Llama-2-70B-chat for the purpose of identifying social groups. We utilize the following prompt based on chain of thought techniques to facilitate this investigation.
 
 
                

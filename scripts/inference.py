@@ -30,7 +30,7 @@ wandb.login()
 import ray
 import re
 count_empty = 0
-count_empty_after_jailbreaking = 0
+
 sweep_config = {
     'method': 'grid',
     "name": "seqeval_wb_websci24",
@@ -81,11 +81,7 @@ Reason: There is no mention of social groups in the text
 Text:  """, 
 
                       
-]} ,
-    
-    }
-
-
+]} ,}
 
 
 sweep_config['parameters'] = parameters_dict

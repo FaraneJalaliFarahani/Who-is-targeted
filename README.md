@@ -11,7 +11,7 @@ The output starts with <annotation> and ends with <\annotation> and number of wo
 Below are some examples:
 
 Text: Because when the middle class does well, the poor have a ladder up and the wealthy still do very well. 
-Answer: <annotation> Because when @@the middle class## does well, @@the poor ##have a ladder up and @@the wealthy ##still do very well. </annotation>
+Answer: \<annotation\> Because when @@the middle class## does well, @@the poor ##have a ladder up and @@the wealthy ##still do very well. </annotation>
 Reason: the middle class, the poor, and the wealthy each one has a size of the group more than one and each group shares some characteristics.
 
 

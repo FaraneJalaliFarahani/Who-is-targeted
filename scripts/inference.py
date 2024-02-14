@@ -225,6 +225,7 @@ def inference(args, config, llm):
         
 
 def evaluation(config=None):
+    # change the llm to Mixtral by replacing the model argument to  "mistralai/Mixtral-8x7B-Instruct-v0.1"
     llm = LLM(model="TheBloke/Llama-2-70B-Chat-fp16", tensor_parallel_size=torch.cuda.device_count())
     with wandb.init(config=config):
         config = wandb.config

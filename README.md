@@ -7,7 +7,7 @@ In our research, we are exploring the application of Llama-2-70B-chat to identif
 
                
 """Determine whether the text below contains mentions of social groups. First, identify social groups based on this definition: Social groups are defined by two or more individuals who share some common characteristics. Commonalities shared by a social group include, for example, race, nationality, ethnicity, religion, gender, sexual orientation, socio-economic status, migration status, profession, family ties, and organizational and institutional ties. Second, do annotation for social groups starting with @@ and ending with ##.  The answer is in the following format:
-The output starts with \<annotation\> and ends with \<\annotation\> and the number of words in the output equals the number of words in the input.  
+The output starts with \<annotation\> and ends with \</annotation\> and the number of words in the output equals the number of words in the input.  
 
 Below are some examples:
 

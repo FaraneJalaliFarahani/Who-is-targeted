@@ -54,8 +54,8 @@ parameters_dict = {
         'values':[1]
     },
         'prompt': {'values':[         
-            """Determine whether the text below contains mentions of social group. First, identify social groups based on this definition: Social groups are defined by two or more individuals who share some common characteristics. Commonalities shared by a social group include, for example, race, nationality, ethnicity, religion, gender, sexual orientation, socio-economic status, migration status, profession, family ties, and organizational and institutional ties. Second, do annotation for social groups starting with @@ and ending with ##.  The answer is in the followwing format:
-The output starts with <annotation> and ends with <\annotation> and number of words in the output are equal to the number of words in the input.  
+            """Determine whether the text below contains mentions of social groups. First, identify social groups based on this definition: Social groups are defined by two or more individuals who share some common characteristics. Commonalities shared by a social group include, for example, race, nationality, ethnicity, religion, gender, sexual orientation, socio-economic status, migration status, profession, family ties, and organizational and institutional ties. Second, do annotation for social groups starting with @@ and ending with ##.  The answer is in the following format:
+The output starts with <annotation> and ends with </annotation> and the number of words in the output equals the number of words in the input.  
 
 Below are some examples:
 
@@ -67,18 +67,18 @@ Reason: the middle class, the poor, and the wealthy each one has a size of the g
 
 Text: hillary is stating publicly that her true allegiance is to the ultra-zionists . not the democratic party , not the usa , not anyone. 
 Answer: <annotation> hillary is stating publicly that her true allegiance is to the @@ultra-zionists## . not the @@democratic party## , not @@the usa##, not anyone. </annotation> 
-Reason: since  ultra-zionists, democratic party, and the USA each one has a size of the group more than one, and each group shares some characteristics.
+Reason: since  ultra-zionists, democratic party, and the USA have more than one member, and each group shares some characteristics.
 
 
 Text: President Biden said: near-record unemployment for Black and Hispanic workers. 
 Answer: <annotation> President Biden said: near-record unemployment for @@Black and Hispanic workers##.</annotation>
-Reason: Black and Hispanic workers is defined as a social group since it has a size of the group more than one, and each group shares some characteristics.
+Reason: Black and Hispanic workers is defined as a social group since it has more than one member, and each group shares some characteristics.
 
 Text: Mr. Biden thanked Mr. Chaves, who was elected last year, for his leadership 
 Answer: <annotation> Mr. Biden thanked Mr. Chaves, who was elected last year, for his leadership </annotation>
 Reason: There is no mention of social groups in the text
 
-Text:  """, 
+Text:  """
 
                       
 ]} ,}

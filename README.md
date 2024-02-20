@@ -1,7 +1,7 @@
 # Who-is-targeted
 This is the code repository for the poster submitted at WebSci24.
 
-In our research, we are exploring the application of Llama-2-70B-chat to identify social groups. We use the following prompt based on a chain of thought techniques to help this investigation.
+In our research, we are exploring the application of Llama-2-70B-chat and Mixtral-8-7B to identify social groups. We use the following prompt based on a chain of thought techniques to help this investigation.
 
 **The prompt used in our experiments:**
 

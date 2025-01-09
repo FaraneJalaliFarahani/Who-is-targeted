@@ -19,7 +19,7 @@ assessment using the token- or word-level evaluation
 
 
 
-### The prompt used in our experiments:
+### The prompt used in our experiments based on [Chain-of-Thought prompting](https://arxiv.org/pdf/2201.11903):
 
  ````              
 """Determine whether the text below contains mentions of social groups. First, identify social groups based on this definition: Social groups are defined by two or more individuals who share some common characteristics. Commonalities shared by a social group include, for example, race, nationality, ethnicity, religion, gender, sexual orientation, socio-economic status, migration status, profession, family ties, and organizational and institutional ties. Second, do annotation for social groups starting with @@ and ending with ##.  The answer is in the following format:

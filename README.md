@@ -15,7 +15,7 @@ Our workflow as described in the following figure, comprises three steps:
 (i.e., entity) rather than partial mentions. The extensive occurrence of “O” tags could distort the model’s performance
 assessment using the token- or word-level evaluation
 
-![screen](Workflow.png)
+![screen](websci24.drawio.png)
 
 
 
